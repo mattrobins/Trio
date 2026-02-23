@@ -118,7 +118,7 @@ extension Home {
         var forecastDisplayType: ForecastDisplayType = .cone
 
         var minYAxisValue: Decimal = 39
-        var maxYAxisValue: Decimal = 200
+        var maxYAxisValue: Decimal = 300 //200
 
         var minValueCobChart: Decimal = 0
         var maxValueCobChart: Decimal = 20
