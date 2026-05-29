@@ -49,8 +49,8 @@ extension Home.StateModel {
     }
 
     @MainActor private func updateChartBounds(minValue: Decimal, maxValue: Decimal) async {
-        minYAxisValue = minValue
-        maxYAxisValue = maxValue
+        minYAxisValue = Decimal(39) //minValue
+        maxYAxisValue = Decimal(300) //maxValue
     }
 
     func yAxisChartDataCobChart(determinations: [[String: Any]]) {
